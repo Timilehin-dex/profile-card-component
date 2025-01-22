@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body class="bg-primary-darkCyan font-kumbh">
+    <div class="relative overflow-hidden">
+      <img
+        class="absolute -left-48 bottom-26rem w-full h-full md:w-auto md:h-auto"
+        src="images/bg-pattern-top.svg"
+        alt=""
+      />
+      <img
+        class="absolute top-26rem -right-48 w-full h-full md:w-auto md:h-auto"
+        src="images/bg-pattern-bottom.svg"
+        alt=""
+      />
+
+      <div class="h-screen grid place-content-center relative">
+        <div class="max-w-xl bg-white rounded-xl overflow-hidden">
+          <img src="images/bg-pattern-card.svg" alt="" />
+          <div class="flex justify-center">
+            <img
+              class="rounded-full border-white border-6 -mt-12 mb-4"
+              src="images/image-victor.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <div class="pb-5">
+              <h4 class="text-primary-veryDarkBlue text-xl font-bold">
+                Victor Crest
+                <span class="text-neutral-darkGray font-normal">26</span>
+              </h4>
+              <span class="text-neutral-darkGray font-normal"> London</span>
+            </div>
+            <hr />
+            <div class="flex justify-between px-10 py-5">
+              <div>
+                <h3 class="text-primary-veryDarkBlue font-bold text-lg">80K</h3>
+                <span class="text-xs text-primary-darkGrayishBlue"
+                  >Followers</span
+                >
+              </div>
+              <div>
+                <h3 class="text-primary-veryDarkBlue font-bold text-lg">
+                  803K
+                </h3>
+                <span class="text-xs text-primary-darkGrayishBlue">Likes</span>
+              </div>
+              <div>
+                <h3 class="text-primary-veryDarkBlue font-bold text-lg">
+                  1.4K
+                </h3>
+                <span class="text-xs text-primary-darkGrayishBlue">Photos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
